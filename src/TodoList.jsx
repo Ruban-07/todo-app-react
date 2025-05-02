@@ -1,3 +1,4 @@
+import Heading from "./Heading";
 import NewTodoForm from "./NewTodoForm";
 import TodoListItem from "./TodoListItem";
 
@@ -10,7 +11,7 @@ export default function TodoList({
 }) {
   return (
     <div>
-      <h1>My Todos</h1>
+      <Heading />
       <NewTodoForm onCreateClicked={onCreateClicked} />
       <h3>Completed:</h3>
       {completedTodos.map((todo, index) => (
