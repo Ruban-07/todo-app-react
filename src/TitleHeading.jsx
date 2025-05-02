@@ -1,5 +1,10 @@
 function TitleHeading() {
-  return <h1>My Todo List App</h1>;
+  return (
+    <div>
+      <h1>TODO APPLICATION</h1>
+      <p>Using ReactJS</p>
+    </div>
+  );
 }
 
 export default TitleHeading;
