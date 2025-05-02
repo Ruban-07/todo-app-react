@@ -1,4 +1,4 @@
-import Heading from "./Heading";
+import TitleHeading from "./TitleHeading";
 import NewTodoForm from "./NewTodoForm";
 import TodoListItem from "./TodoListItem";
 
@@ -11,7 +11,7 @@ export default function TodoList({
 }) {
   return (
     <div>
-      <Heading />
+      <TitleHeading />
       <NewTodoForm onCreateClicked={onCreateClicked} />
       <h3>Completed:</h3>
       {completedTodos.map((todo, index) => (
